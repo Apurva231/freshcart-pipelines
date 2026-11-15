@@ -1,0 +1,10 @@
+pandas
+scikit-learn
+snowflake-connector-python
+pika
+pytest
+notebook
+ipykernel
+matplotlib
+seaborn
+pyyaml
