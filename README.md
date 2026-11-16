@@ -129,6 +129,3 @@ Every push to any branch triggers the GitHub Actions workflow defined in `.githu
 
 ---
 
-## License
-
-MIT
