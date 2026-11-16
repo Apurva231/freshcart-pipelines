@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 
 @transformer
 def transform(df, *args, **kwargs):
-    test_size = float(kwargs.get('test_size', 0.2))
+    test_size = float(kwargs.get('test_size', 0.3))
     train_df, test_df = train_test_split(df, test_size=test_size, random_state=42)
     result = df.copy()
     result['split'] = 'test'
